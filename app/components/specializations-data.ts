@@ -24,7 +24,7 @@ export const SPECIALIZATIONS: Specialization[] = [
     code: "01",
     title: "Construção Naval",
     description:
-      "Da fibra de vidro ao aço naval — embarcações de pesca, rebocadores, landing crafts, barges e unidades offshore.",
+      "Da fibra de vidro ao aço naval — embarcações de pesca, rebocadores, landing crafts, barges, redes e outros artefactos de pesca.",
     image: "/construcaonaval.jpg",
     icon: IconHull,
     items: [
@@ -36,6 +36,7 @@ export const SPECIALIZATIONS: Specialization[] = [
       "Landing Crafts",
       "Barges",
       "Embarcações Offshore",
+      "Redes e artefactos de pesca",
     ],
   },
   {
@@ -72,7 +73,7 @@ export const SPECIALIZATIONS: Specialization[] = [
     code: "04",
     title: "Offshore Oil & Gas",
     description:
-      "Apoio logístico, reparação offshore, engenharia industrial, fabricação e montagem.",
+      "Apoio logístico, reparação offshore, engenharia industrial e tecnologia subaquática, incluindo inspeções e sistemas submarinos.",
     image: "/offshoreoilgas.jpg",
     icon: IconRig,
     items: [
@@ -80,6 +81,9 @@ export const SPECIALIZATIONS: Specialization[] = [
       "Reparação offshore",
       "Engenharia industrial",
       "Fabricação e montagem",
+      "Inspeções subaquáticas",
+      "Tecnologia subaquática",
+      "Sistemas submarinos",
     ],
   },
   {
@@ -128,11 +132,12 @@ export const SPECIALIZATIONS: Specialization[] = [
     code: "08",
     title: "Inovação & Parcerias",
     description:
-      "Tecnologia marítima, energias complementares, consórcios internacionais e projetos sustentáveis.",
+      "Tecnologia marítima, automação digital, energias complementares e parcerias internacionais.",
     image: "/inovacaoeparcerias.jpg",
     icon: IconSpark,
     items: [
       "Tecnologia marítima",
+      "Automação digital",
       "Energias complementares",
       "Consórcios internacionais",
       "Projetos sustentáveis",

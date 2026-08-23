@@ -46,14 +46,6 @@ export default function FeaturedConstruction() {
               </li>
             ))}
           </ul>
-
-          <a
-            href="#contacto"
-            className="mt-9 inline-flex items-center gap-2 rounded-full bg-navy px-7 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-navy-deep"
-          >
-            Ver Projetos
-            <IconArrowUpRight className="h-4 w-4" />
-          </a>
         </Reveal>
 
         <Reveal delay={0.15} className="relative">
