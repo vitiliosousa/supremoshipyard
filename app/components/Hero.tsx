@@ -13,7 +13,7 @@ const EASE = [0.16, 1, 0.3, 1] as const;
 
 export default function Hero() {
   return (
-    <section id="home" className="relative flex min-h-[100svh] w-full items-end overflow-hidden bg-navy-deep">
+    <section id="home" className="relative flex min-h-[100svh] w-full items-end overflow-hidden bg-navy-deep lg:h-[100svh]">
       <video
         className="absolute inset-0 h-full w-full object-cover"
         src="/hero.mp4"
@@ -26,7 +26,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-t from-navy-deep via-navy-deep/60 to-navy-deep/30" />
       <div className="absolute inset-0 bg-gradient-to-r from-navy-deep/70 via-transparent to-navy-deep/40" />
 
-      <div className="relative z-10 mx-auto w-full max-w-[1440px] px-6 pb-16 pt-28 sm:pt-32 sm:pb-20 lg:px-12 lg:pb-28 lg:pt-40">
+      <div className="relative z-10 mx-auto w-full max-w-[1440px] px-6 pb-16 pt-28 sm:pt-32 sm:pb-20 lg:px-12 lg:pb-16 lg:pt-24">
         <motion.p
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
@@ -40,7 +40,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.1, ease: EASE }}
-          className="mt-5 max-w-4xl text-balance font-display text-3xl font-extrabold leading-[1.08] tracking-tight text-white sm:text-5xl lg:text-7xl"
+          className="mt-5 max-w-4xl text-balance font-display text-3xl font-extrabold leading-[1.08] tracking-tight text-white sm:text-5xl lg:text-6xl"
         >
           Construímos o Futuro da Engenharia Marítima.
         </motion.h1>
@@ -60,7 +60,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.34, ease: EASE }}
-          className="mt-9 flex flex-wrap items-center gap-4"
+          className="mt-8 flex flex-wrap items-center gap-4"
         >
           <a
             href="#contacto"
@@ -80,7 +80,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.46, ease: EASE }}
-          className="mt-10 flex flex-wrap gap-x-8 gap-y-3 border-t border-white/15 pt-6 sm:mt-14 sm:gap-x-10 sm:pt-7"
+          className="mt-10 flex flex-wrap gap-x-8 gap-y-3 border-t border-white/15 pt-6 sm:mt-12 sm:gap-x-10 sm:pt-6 lg:mt-10"
         >
           {INDICATORS.map(({ icon: Icon, label }) => (
             <div key={label} className="flex items-center gap-3 text-white/85">
